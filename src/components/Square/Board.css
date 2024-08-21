@@ -1,0 +1,24 @@
+.square {
+    width: 3rem;
+    height: 3rem;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+    font-size: 2rem;
+    background-color: transparent;
+    border: 1px solid black; /* Ensure no border */
+    display: inline-block; /* Prevent any block-level behavior */
+    line-height: 3rem; /* Center text vertically */
+    text-align: center; /* Center text horizontally */
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  .square:focus, .square:active {
+    outline: none;
+  }
+  
+  
+  .square:focus, .square:active {
+    outline: none; /* Remove the outline */
+  }
+  
